@@ -5,6 +5,7 @@ RUN apt update \
     curl \
     dnsutils \
     inetutils-ping \
+    jq \
     nmap \
     telnet \
     traceroute \
