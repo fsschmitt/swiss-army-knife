@@ -17,4 +17,4 @@ spec:
       allowPrivilegeEscalation: false
     command:
       - sleep
-    args: ["2147483648"]
+    args: ["infinity"]

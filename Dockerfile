@@ -2,7 +2,11 @@ FROM ubuntu
 
 RUN apt update \
   && apt install -y \
-    inetutils-ping \
-    traceroute \
+    curl \
     dnsutils \
+    inetutils-ping \
+    nmap \
+    telnet \
+    traceroute \
+    wget \
   && rm -rf /var/lib/apt/lists/*
