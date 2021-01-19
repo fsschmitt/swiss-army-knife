@@ -11,8 +11,15 @@ spec:
     fsGroup: 65534
   containers:
   - name: swiss-army-knife
-    image: jkrnak/swiss-army-knife:latest
+    image: fsschmitt/swiss-army-knife:latest
     imagePullPolicy: Always
+    resources:
+      limits:
+        cpu: 100m
+        memory: 50Mi
+      requests:
+        cpu: 100m
+        memory: 50Mi
     securityContext:
       allowPrivilegeEscalation: false
     command:
