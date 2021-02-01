@@ -4,9 +4,10 @@ RUN apt update \
   && apt install -y \
     curl \
     dnsutils \
-    inetutils-ping \
+    iputils-ping \
     jq \
     nmap \
+    netcat \
     telnet \
     traceroute \
     wget \
